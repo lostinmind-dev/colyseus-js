@@ -1,0 +1,17 @@
+{
+    "name": "@lostinmind/colyseus-js-port",
+    "version": "1.0.0",
+    "compilerOptions": {
+        "lib": [
+            "deno.window",
+            "dom",
+            "dom.asynciterable"
+        ]
+    },
+    "tasks": {
+        "publish": "npx jsr publish --allow-slow-types --no-check --allow-dirty"
+    },
+    "exclude": [
+        "test.ts"
+    ]
+}
