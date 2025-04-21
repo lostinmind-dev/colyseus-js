@@ -1,4 +1,3 @@
-/// <reference types="./colyseus.d.ts" />
 // colyseus.js@0.16.15 (@colyseus/schema 3.0.24)
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
